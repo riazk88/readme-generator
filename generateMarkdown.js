@@ -1,10 +1,10 @@
-function generateMarkdown (answers) {
+function generateMarkdown (data) {
     return `
     # Title
-    ${answers.title}
+    ${data.name}
     
     ## Description
-    ${answers.description}
+    ${data.description}
 
     ## Table of Contents
     - [Description] (#description)
@@ -15,24 +15,23 @@ function generateMarkdown (answers) {
     - [License] (#license)
 
     ## Installation
-    ${answers.installation}
+    ${data.installation}
 
     ## Usage
-    ${answers.usage}
+    ${data.usage}
 
     ## Contribution
-    ${answers.contribution}
+    ${data.contribution}
 
     ## Tests
-    ${answers.tests}
+    ${data.tests}
 
     ## License
-    ${answers.license}
+    ${data.license}
 
     ## Questions
-    ${answers.questions}
-    https://github.com/${answers.username}
-    ${answers.email}
+    https://github.com/${data.username}
+    ${data.email}
     `;
 }
 

@@ -3,68 +3,138 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 
 
-inquirer
-  .prompt([
+const promptUser = () => {
+  return inquirer.prompt([
     /* Pass your questions in here */
     {
         type: "input",
-        message: "What is the name of your project?",
-        name: "title",
-    },
+        message: "What is your GitHub username? (Required)",
+        name: "username",
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter GitHub username!')
+                return false;
+                }
+            }
+        },
     {
         type: "input",
-        message: "Please enter a description of your project",
+        message: "What is your email address? (Required)",
+        name: "email",
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter email address!')
+                return false;
+                }
+            }
+        },
+    {
+        type: "input",
+        message: "What is the name of your project? (Required)",
+        name: "title",
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter your project name!')
+                return false;
+                }
+            }
+        },
+    {
+        type: "input",
+        message: "Please enter a description of your project (Required)",
         name: "description",
-    },
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter a description!')
+                return false;
+                }
+            }
+        },
     {
         type: "input",
         message: "Please enter installation instructions",
         name: "installation",
-    },
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter installation instructions!')
+                return false;
+                }
+            }
+        },
     {
         type: "input",
         message: "Please enter usage information",
         name: "usage",
-    },
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter usage information!')
+                return false;
+                }
+            }
+        },
     {
         type: "input",
         message: "Please enter contribution guidelines",
         name: "contribution",
-    },
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter contribution guidelines!')
+                return false;
+                }
+            }
+        },
     {
         type: "input",
         message: "Please enter test instructions",
         name: "tests",
-    },
+        validate : nameInput => {
+            if (nameInput) {
+                return true;
+                } else {
+                console.log('Please enter test instructions!')
+                return false;
+                }
+            }
+        },
     {
         type : "list", 
         message: "Choose a license for your application",
         name: "license",
-        choices: ["MIT", "Apache", "GPL", "Mozilla", "LGPL", "Eclipse", "Artistic", "Affero"]
-    },
-    {
-        type: "input",
-        message: "What is your GitHub username?",
-        name: "username",
-    },
-    {
-        type: "input",
-        message: "What is your email address?",
-        name: "email",
+        choices: ["MIT", "Apache", "GPL", "Mozilla", "LGPL", "Eclipse", "Artistic", "Affero", "Unlicense"]
     },
   ])
-
-  .then(answers => {
-    console.log(answers);
-})
-
-// function to write README file
-function writeToFile(fileName, answers) {
-}
+};
 
 // function to initialize program
-function init() {
+const init=() => {
+    console.log (`
+    =================
+    Generate a README
+    =================
+`);
+promptUser()
+  .then(data => {
 
+    fs.writeFile('./README.md', generateMarkdown(data), err => {
+      if (err) throw new Error(err);
+
+      console.log('Page created! Check out README.md in this directory to see it!');
+    });
+  })
 }
 
 // function call to initialize program
