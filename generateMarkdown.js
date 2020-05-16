@@ -1,3 +1,4 @@
+const fs = require("fs");
 function generateMarkdown (data) {
     return `
     # Title
@@ -7,7 +8,6 @@ function generateMarkdown (data) {
     ${data.description}
 
     ## Table of Contents
-    - [Description] (#description)
     - [Installation] (#installation)
     - [Usage] (#usage)
     - [Contribution] (#contribution)

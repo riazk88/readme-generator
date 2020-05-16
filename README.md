@@ -3,10 +3,9 @@
     undefined
     
     ## Description
-    readme generator
+    Helps users create a readme page after they answer a series of questions
 
     ## Table of Contents
-    - [Description] (#description)
     - [Installation] (#installation)
     - [Usage] (#usage)
     - [Contribution] (#contribution)
