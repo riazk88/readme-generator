@@ -1,13 +1,11 @@
-const inquirer = require('inquirer');
+const generateMarkdown = require("./generateMarkdown");
+const inquirer = require("inquirer");
+const fs = require("fs");
+
+
 inquirer
   .prompt([
     /* Pass your questions in here */
-    {
-        type : "list", 
-        message: "Choose a license for your application",
-        name: "license",
-        choices: ["MIT", "Apache", "GPL", "Mozilla", "LGPL", "Eclipse", "Artistic", "Affero"]
-    },
     {
         type: "input",
         message: "What is the name of your project?",
@@ -36,7 +34,13 @@ inquirer
     {
         type: "input",
         message: "Please enter test instructions",
-        name: "test",
+        name: "tests",
+    },
+    {
+        type : "list", 
+        message: "Choose a license for your application",
+        name: "license",
+        choices: ["MIT", "Apache", "GPL", "Mozilla", "LGPL", "Eclipse", "Artistic", "Affero"]
     },
     {
         type: "input",
@@ -48,17 +52,20 @@ inquirer
         message: "What is your email address?",
         name: "email",
     },
-
-
   ])
+
   .then(answers => {
-    // Use user feedback for... whatever!!
     console.log(answers);
-  })
-  .catch(error => {
-    if(error.isTtyError) {
-      // Prompt couldn't be rendered in the current environment
-    } else {
-      // Something else when wrong
-    }
-  });
+})
+
+// function to write README file
+function writeToFile(fileName, answers) {
+}
+
+// function to initialize program
+function init() {
+
+}
+
+// function call to initialize program
+init();
