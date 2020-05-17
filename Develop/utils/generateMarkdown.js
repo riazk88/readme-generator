@@ -1,6 +1,6 @@
-function generateMarkdown (data) {
+function generateReadme (data) {
     return `
-    
+
     # Title
     ${data.title}
     
@@ -37,4 +37,4 @@ function generateMarkdown (data) {
     `;
 };
 
-module.exports = generateMarkdown;
+module.exports = generateReadme;

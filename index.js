@@ -1,6 +1,6 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
-const generateMarkdown = require("./Develop/utils/generateMarkdown");
+const generateReadme = require("./Develop/utils/generateMarkdown");
 
 
 function promptUser () {
@@ -130,7 +130,7 @@ const init=() => {
 promptUser()
   .then(data => {
 
-    fs.writeFile('./Develop/README.md', generateMarkdown(data), err => {
+    fs.writeFile('./Develop/README.md', generateReadme(data), err => {
       if (err) throw new Error(err);
 
       console.log('README created! Check out README.md in the Develop folder to see it!');

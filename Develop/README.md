@@ -1,9 +1,10 @@
 
+
     # Title
     readme-generator
     
     ## Description
-    creates a readme page for user after they answer series of questions
+    generates a readme
 
     ## Table of Contents
     * [Installation] (#installation)
@@ -16,10 +17,10 @@
     node
 
     ## Usage
-    generates a readme for user
+    none
 
     ## Contribution
-    Kiran Riaz
+    Kiran
 
     ## Tests
     none
@@ -28,6 +29,8 @@
     This application is covered under the MIT license.
 
     ## Questions
-    https://github.com/riazk88
-    Email me questions at riazk88@yahoo.com
+    Please reach out for additional questions!
+    GitHub Username: riazk88
+    GitHub Page: https://github.com/riazk88
+    Email: riazk88@yahoo.com
     
