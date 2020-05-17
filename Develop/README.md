@@ -5,7 +5,7 @@ readme-generator
 ![](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
     
 ## Description
-node application that takes users input from answering a series of questions and creates a README for them
+node application that creates a README based on user's input from answering a series of questions
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,10 +18,10 @@ node application that takes users input from answering a series of questions and
 npm init and npm install inquirer
 
 ## Usage
-node index.js in command line
+on command line type node index.js
 
 ## Contribution
-Kiran
+Kiran Riaz
 
 ## Tests
 none
@@ -31,6 +31,6 @@ This application is covered under the MIT license.
 
 ## Questions
 Please reach out for additional questions! <br>
-GitHub Username: Riazk88<br>
-GitHub Page: https://github.com/Riazk88<br>
+GitHub Username: riazk88<br>
+GitHub Page: https://github.com/riazk88<br>
 Email: riazk88@yahoo.com<br>
