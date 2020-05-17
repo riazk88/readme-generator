@@ -1,11 +1,11 @@
 
 # Title
-dsfdsf
+readme-generator
 
-![](https://img.shields.io/static/v1?label=license&message=Mozilla&color=blue)
+![](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
     
 ## Description
-dsfdsf
+node application that takes users input from answering a series of questions and creates a README for them
 
 ## Table of Contents
 * [Installation](#installation)
@@ -15,22 +15,22 @@ dsfdsf
 * [License](#license)
 
 ## Installation
-dsfsd
+npm init and npm install inquirer
 
 ## Usage
-dsf
+node index.js in command line
 
 ## Contribution
-dfs
+Kiran
 
 ## Tests
-sdaf
+none
 
 ## License
-This application is covered under the Mozilla license.
+This application is covered under the MIT license.
 
 ## Questions
 Please reach out for additional questions! <br>
-GitHub Username: dfsdfdsf<br>
-GitHub Page: https://github.com/dfsdfdsf<br>
-Email: dfdsf<br>
+GitHub Username: Riazk88<br>
+GitHub Page: https://github.com/Riazk88<br>
+Email: riazk88@yahoo.com<br>
