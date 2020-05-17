@@ -3,31 +3,31 @@
     readme-generator
     
     ## Description
-    generates a readme page based on user's answers to questions
+    generates a readme
 
     ## Table of Contents
-    - [Installation] (#installation)
-    - [Usage] (#usage)
-    - [Contribution] (#contribution)
-    - [Tests] (#tests)
-    - [License] (#license)
+    * [Installation] (#installation)
+    * [Usage] (#usage)
+    * [Contribution] (#contribution)
+    * [Tests] (#tests)
+    * [License] (#license)
 
     ## Installation
-    *insert here*
+    none
 
     ## Usage
-    used to generate a readme page
+    none
 
     ## Contribution
-    Kiran 
+    none
 
     ## Tests
     none
 
     ## License
-    MIT
+    This application is covered under the MIT license.
 
     ## Questions
     https://github.com/riazk88
-    riazk88@yahoo.com
+    Email me questions at riazk88@yahoo.com
     

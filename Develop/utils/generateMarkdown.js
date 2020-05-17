@@ -1,4 +1,3 @@
-const fs = require("fs");
 function generateMarkdown (data) {
     return `
     # Title
@@ -8,11 +7,11 @@ function generateMarkdown (data) {
     ${data.description}
 
     ## Table of Contents
-    - [Installation] (#installation)
-    - [Usage] (#usage)
-    - [Contribution] (#contribution)
-    - [Tests] (#tests)
-    - [License] (#license)
+    * [Installation] (#installation)
+    * [Usage] (#usage)
+    * [Contribution] (#contribution)
+    * [Tests] (#tests)
+    * [License] (#license)
 
     ## Installation
     ${data.installation}
@@ -27,11 +26,11 @@ function generateMarkdown (data) {
     ${data.tests}
 
     ## License
-    ${data.license}
+    This application is covered under the ${data.license} license.
 
     ## Questions
     https://github.com/${data.username}
-    ${data.email}
+    Email me questions at ${data.email}
     `;
 }
 
