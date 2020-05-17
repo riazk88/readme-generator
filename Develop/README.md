@@ -5,7 +5,7 @@ readme-generator
 ![](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
     
 ## Description
-node application that creates a README based on user's input from answering a series of questions
+node application that creates a readme for user's based on their answers to a series of questions asked
 
 ## Table of Contents
 * [Installation](#installation)
@@ -18,7 +18,7 @@ node application that creates a README based on user's input from answering a se
 npm init and npm install inquirer
 
 ## Usage
-on command line type node index.js
+uses command line, node index.js
 
 ## Contribution
 Kiran Riaz
