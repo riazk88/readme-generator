@@ -5,7 +5,7 @@ readme-generator
 ![](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
     
 ## Description
-node application that creates a readme for user based on their answers to a series of questions
+generates a readme based on user's answers to a series of questions
 
 ## Table of Contents
 * [Installation](#installation)
