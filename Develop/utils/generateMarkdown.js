@@ -1,7 +1,7 @@
 function generateReadme (data) {
-    return `
+    return 
 
-    # Title
+    `# Title
     ${data.title}
     
     ## Description
