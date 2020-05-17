@@ -7,11 +7,11 @@ ${data.title}
 ${data.description}
 
 ## Table of Contents
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contribution] (#contribution)
-* [Tests] (#tests)
-* [License] (#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [License](#license)
 
 ## Installation
 ${data.installation}

@@ -1,16 +1,16 @@
 
 # Title
-readme-generator
+readme gen
     
 ## Description
 gen a readme
 
 ## Table of Contents
-* [Installation] (#installation)
-* [Usage] (#usage)
-* [Contribution] (#contribution)
-* [Tests] (#tests)
-* [License] (#license)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [License](#license)
 
 ## Installation
 node
@@ -19,7 +19,7 @@ node
 none
 
 ## Contribution
-Kiran
+none
 
 ## Tests
 none
