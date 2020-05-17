@@ -126,25 +126,14 @@ const init=() => {
     Generate a README
     =================
 `);
-// promptUser()
-//     .then(function (userInput){
-//         const readME = generateMarkdown(userInput);
-//         console.log(readMe);
-//         return msWriteProfilerMark("README.md", readMe);
-//     })
-//     .then (function () {
-//         console.log("Page created! Check out README.md in this directory to see it!");
-//     })
-//     .catch (function (err) { 
-//         console.log(err);
-//     });
+
 promptUser()
   .then(data => {
 
-    fs.writeFile('./README.md', generateMarkdown(data), err => {
+    fs.writeFile('./Develop/README.md', generateMarkdown(data), err => {
       if (err) throw new Error(err);
 
-      console.log('Page created! Check out README.md in this directory to see it!');
+      console.log('README created! Check out README.md in the Develop folder to see it!');
     });
   })
 }
