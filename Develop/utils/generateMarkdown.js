@@ -1,5 +1,6 @@
 function generateMarkdown (data) {
     return `
+    
     # Title
     ${data.title}
     
@@ -29,9 +30,11 @@ function generateMarkdown (data) {
     This application is covered under the ${data.license} license.
 
     ## Questions
-    https://github.com/${data.username}
-    Email me questions at ${data.email}
+    Please reach out for additional questions!
+    GitHub Username: ${data.username}
+    GitHub Page: https://github.com/${data.username}
+    Email: ${data.email}
     `;
-}
+};
 
 module.exports = generateMarkdown;
