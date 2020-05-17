@@ -1,9 +1,11 @@
 
 # Title
-readme gen
+readme generator
+
+![](https://img.shields.io/static/v1?label=license&message=MIT&color=blue)
     
 ## Description
-gen a readme
+generates a readme
 
 ## Table of Contents
 * [Installation](#installation)
