@@ -1,10 +1,5 @@
 function generateBadge(license) {
     return `![](https://img.shields.io/static/v1?label=license&message=${license}&color=blue)`;
-    // if (license == "GITHUB License") {
-    //     return `![GitHub](https://img.shields.io/github/license/riazk88/mnb-readme-generator)`
-    // } else if (license == "NPM License") {
-    //     return `![NPM](https://img.shields.io/npm/l/inquirer)`
-    // }
 }
 
 function generateReadme (data) {
@@ -40,10 +35,10 @@ ${data.tests}
 This application is covered under the ${data.license} license.
 
 ## Questions
-Please reach out for additional questions!
-GitHub Username: ${data.username}
-GitHub Page: https://github.com/${data.username}
-Email: ${data.email}
+Please reach out for additional questions! <br>
+GitHub Username: ${data.username}<br>
+GitHub Page: https://github.com/${data.username}<br>
+Email: ${data.email}<br>
 `;
 };
 
