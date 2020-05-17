@@ -1,10 +1,10 @@
 
 
     # Title
-    readme-generator
+    readme-gen
     
     ## Description
-    generates a readme
+    gen a readme
 
     ## Table of Contents
     * [Installation] (#installation)
