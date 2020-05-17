@@ -1,9 +1,9 @@
 
     # Title
-    undefined
+    readme-generator
     
     ## Description
-    Helps users create a readme page after they answer a series of questions
+    generates a readme page based on user's answers to questions
 
     ## Table of Contents
     - [Installation] (#installation)
@@ -13,13 +13,13 @@
     - [License] (#license)
 
     ## Installation
-    none
+    *insert here*
 
     ## Usage
-    none
+    used to generate a readme page
 
     ## Contribution
-    none
+    Kiran 
 
     ## Tests
     none

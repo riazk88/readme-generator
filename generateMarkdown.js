@@ -2,7 +2,7 @@ const fs = require("fs");
 function generateMarkdown (data) {
     return `
     # Title
-    ${data.name}
+    ${data.title}
     
     ## Description
     ${data.description}

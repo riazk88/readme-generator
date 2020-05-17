@@ -1,9 +1,9 @@
-const generateMarkdown = require("./generateMarkdown");
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./generateMarkdown");
 
 
-const promptUser = () => {
+function promptUser () {
   return inquirer.prompt([
     /* Pass your questions in here */
     {
@@ -126,6 +126,18 @@ const init=() => {
     Generate a README
     =================
 `);
+// promptUser()
+//     .then(function (userInput){
+//         const readME = generateMarkdown(userInput);
+//         console.log(readMe);
+//         return msWriteProfilerMark("README.md", readMe);
+//     })
+//     .then (function () {
+//         console.log("Page created! Check out README.md in this directory to see it!");
+//     })
+//     .catch (function (err) { 
+//         console.log(err);
+//     });
 promptUser()
   .then(data => {
 
